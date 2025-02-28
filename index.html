@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <title>Dog Generator :)</title>
-   <link type='text/css' href='index.css' rel='stylesheet' />
- </head>
- <body>
-   <div class="body-content">
-     <h1>Dog Generator</h1>
-     <p>This is Wallie</p>
-     <p class="fun-facts">Fun Facts!</p>
-    <img src="wallie.jpeg" id = "dog-image" height="500"></img>
-     <div class="button-container">
-      <div id="random"  onclick="getRandomDog()">Find Random Dog!</div>
-      <div id="submit" onclick="getSpecificDog()">Find Specific Dog Breed!</div>
+  <head>
+    <title>Dog Generator :)</title>
+    <link rel='stylesheet' type='text/css' href='index.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="body-content">
+      <h1 class="title">✨dog generator✨</h1>
+      <img src="Dog-Emoji.png" id = "dog-image" height="500"></img>
       <input type="text" id="breed" placeholder="Enter Dog Breed">
-     </div>
-
- </body>
+      <div class="button-container">
+        <button id="submit" onclick="getSpecificDog()">find dog!</button>
+        <button id="random"  onclick="getRandomDog()">random dog!</button>
+      </div>
+      <div class="wallie-container">
+        <img src="wallie.jpeg" class = "wallie-image" height="500"></img>
+        <div>
+          <p class="about-the-author">about the author</p>
+          <ol>
+            <li>my name is wallie</li>
+            <li>i am joyce's dog</li>
+            <li>i'm 9 or 10 years old</li>
+            <li>i'm looking for fellow dog friends</li>
+            <li>i forget</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
 
-<script src="index.js"></script>
