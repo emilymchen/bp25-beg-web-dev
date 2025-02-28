@@ -154,3 +154,13 @@ button:hover {
     background-color: red;
   }
 }
+
+/* error message styling */
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  visibility: hidden; /* shld be hidden by default */
+}
